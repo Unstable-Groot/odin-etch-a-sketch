@@ -14,7 +14,7 @@ function fadein() {
 }
 function fadeout() {
     this.style.backgroundColor = bColor;
-    this.style.transition = "all 1.5s";
+    this.style.transition = "all 3s";
 }
 
 function createGrid() {
