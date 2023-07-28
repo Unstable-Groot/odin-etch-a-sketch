@@ -1,19 +1,35 @@
 * {
+    font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box;
-    border: 1px solid rgb(83, 221, 255);
+}
+
+.btn-zone {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-zone > * {
+    margin: 10px;
+}
+
+.btn-zone h1 {
+    font-size: 50px;
+    flex: 1 1 18.25em; /*ensure button wrap happens before text wrap*/
+    text-align: center;
+}
+
+.btn-zone button {
+    flex: 0 0 300px;
+    font-size: 20px;
+    height: 60px;
+    border-radius: 5px;
+    border: 3px solid #6b7c80;
+    background-color: #b9b9b9;
 }
 
 .grid-container {
     display: flex;
     flex-wrap: wrap;
-}
-
-.block {
-    aspect-ratio: 1;
-    transition: all 1.5s;
-}
-
-.test {
-    background-color: #000000;
-    transition: all 0s;
 }
