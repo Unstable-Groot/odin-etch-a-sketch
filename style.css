@@ -10,4 +10,10 @@
 
 .block {
     aspect-ratio: 1;
+    transition: all 1.5s;
+}
+
+.test {
+    background-color: #000000;
+    transition: all 0s;
 }
